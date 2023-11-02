@@ -1,0 +1,35 @@
+{
+  "name": "ton-min-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "npx nodemon -x ts-node src/index.ts",
+    "prod": "node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tonconnect/protocol": "^2.2.5",
+    "@tonconnect/sdk": "^3.0.0-beta.1",
+    "axios": "^1.6.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa2-cors": "^2.0.6",
+    "ton": "^13.9.0",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0",
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.11",
+    "@types/koa-router": "^7.4.6",
+    "@types/koa2-cors": "^2.0.4",
+    "@types/node": "^20.8.10"
+  }
+}
