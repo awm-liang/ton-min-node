@@ -1,24 +1,15 @@
 [
 	{
-		"id": "5985506262",
+		"id": 5985506262,
 		"gender": "",
 		"name": {
-			"username": "WORLDS",
+			"username": "lan_666666",
 			"first": "WORLD",
 			"last": "PEACE"
 		},
 		"email": "",
-		"picture": ""
-	},
-	{
-		"id": "2135880156",
-		"gender": "",
-		"name": {
-			"username": "HaoJingWuDi666",
-			"first": "昊京无敌666",
-			"last": ""
-		},
-		"email": "",
-		"picture": ""
+		"picture": "",
+		"isRegister": true,
+		"wallet_address": "0:c24e7b44ce0f29f48841d520b3fda24233a6ccdf487ce1c5f7fd62b24e88bec7"
 	}
 ]

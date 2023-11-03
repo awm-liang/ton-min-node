@@ -9,7 +9,9 @@ export type UserItemProps = {
         last?: string
     },
     email?: string,
-    picture?: string
+    picture?: string,
+    isRegister: boolean,
+    wallet_address: string,
 }
 
 export const readUser = async (): Promise<UserItemProps[]> => {
