@@ -15,7 +15,6 @@ export const generatePayloadString = (id:string) => {
     return JSON.stringify(dataJSON)
 }
 
-
 export const getPublicKeyByAddress = (walletInfo: Wallet) => {
     return new Promise((resolve, reject) => {
         request.get(
@@ -34,3 +33,5 @@ export const getPublicKeyByAddress = (walletInfo: Wallet) => {
           );
     })
 }
+
+// https://ton-connect.github.io/open-tc?sign=${encodeURIComponent(
